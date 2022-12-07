@@ -1,6 +1,12 @@
 class Age {
-    int age = 5;
+    int age;
+    String name;
 
-    int setAge(String name, ) {
+    public void setDate(String name, int age ) {
+        this.name = name;
+        this.age = age;
+    }
+    public void print() {
+        System.out.println("Имя: " + this.name + ", " + this.age + " лет.");
     }
 }
